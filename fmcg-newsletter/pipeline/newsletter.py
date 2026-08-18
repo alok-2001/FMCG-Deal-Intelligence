@@ -9,41 +9,52 @@ Takes the scored, de-duplicated primary articles and produces:
 
 import csv
 import json
+import re
 from datetime import datetime, timezone
 
 
 def _clean_text(text):
-    """Remove accidental Markdown formatting from article fields."""
-    if not text:
+    """Clean article text and remove accidental Markdown formatting."""
+
+    if text is None:
         return ""
 
     text = str(text)
 
-    # Remove accidental markdown characters coming from source data
+    # Remove Markdown formatting characters
     text = text.replace("**", "")
+    text = text.replace("__", "")
     text = text.replace("*", "")
+    text = text.replace("`", "")
+
+    # Replace underscores with spaces
+    text = text.replace("_", " ")
+
+    # Remove extra spaces
+    text = re.sub(r"\s+", " ", text)
 
     return text.strip()
 
 
 def _fmt_deal(article):
-    import re
+    """Create a clean headline for a deal."""
 
-    def clean_text(text):
-        if not text:
-            return ""
-        # Remove markdown formatting symbols from source data
-        text = re.sub(r"[*_`#]+", "", str(text))
-        return text.strip()
+    acquirer = _clean_text(article.acquirer)
+    target = _clean_text(article.target)
+    title = _clean_text(article.title)
+    deal_value = _clean_text(article.deal_value)
 
-    if article.acquirer and article.target:
-        who = f"{clean_text(article.acquirer)} → {clean_text(article.target)}"
+    # Prefer acquirer and target when both are available
+    if acquirer and target:
+        headline = f"{acquirer} → {target}"
     else:
-        who = clean_text(article.title)
+        headline = title
 
-    value = f" ({clean_text(article.deal_value)})" if article.deal_value else ""
+    # Add deal value only if it is not already present in headline
+    if deal_value and deal_value.lower() not in headline.lower():
+        headline = f"{headline} ({deal_value})"
 
-    return who + value
+    return headline
 
 
 def build_newsletter_markdown(included_articles, generated_at=None):
@@ -92,20 +103,27 @@ def build_newsletter_markdown(included_articles, generated_at=None):
             snippet = _clean_text(art.snippet)
             source = _clean_text(art.source)
 
+            # Clean source URL
+            url = str(art.url).strip() if art.url else ""
+
             lines.append(f"### {headline}")
             lines.append("")
 
-            lines.append(snippet)
-            lines.append("")
+            if snippet:
+                lines.append(snippet)
+                lines.append("")
 
-            lines.append(
+            source_text = (
                 f"Sources: {art.corroboration_count} | "
                 f"Credibility: {art.credibility_tier} "
                 f"({art.credibility_score}/100) | "
-                f"Relevance: {art.relevance_score}/100 | "
-                f"[{source}]({art.url})"
+                f"Relevance: {art.relevance_score}/100"
             )
 
+            if source and url:
+                source_text += f" | [{source}]({url})"
+
+            lines.append(source_text)
             lines.append("")
 
     return "\n".join(lines)
@@ -121,10 +139,14 @@ def build_json_record(all_articles, generated_at=None):
         "generated_at": generated_at,
         "total_ingested": len(all_articles),
         "total_included": sum(
-            1 for a in all_articles
+            1
+            for a in all_articles
             if a.included_in_newsletter and a.is_primary
         ),
-        "articles": [a.to_dict() for a in all_articles],
+        "articles": [
+            a.to_dict()
+            for a in all_articles
+        ],
     }
 
 
@@ -164,6 +186,7 @@ def write_csv(all_articles, path):
         writer.writeheader()
 
         for art in all_articles:
+
             row = {
                 k: getattr(art, k)
                 for k in fieldnames
@@ -175,7 +198,8 @@ def write_csv(all_articles, path):
 def write_markdown(all_articles, path):
 
     included = [
-        a for a in all_articles
+        a
+        for a in all_articles
         if a.included_in_newsletter and a.is_primary
     ]
 
