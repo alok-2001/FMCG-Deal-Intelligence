@@ -1,0 +1,391 @@
+{
+  "generated_at": "2026-08-18 08:25 UTC",
+  "total_ingested": 14,
+  "total_included": 8,
+  "articles": [
+    {
+      "title": "Godrej Consumer Products completes acquisition of FMCG business from Trilogy Solutions",
+      "source": "MarketScreener",
+      "url": "https://www.marketscreener.com/news/godrej-consumer-products-limited-competed-the-acquisition-of-fmcg-business-from-trilogy-solutions-pr-ce7d51d8db8cf22d",
+      "published": "2025-11-10",
+      "snippet": "Godrej Consumer Products Limited signed a definitive agreement to acquire the FMCG business, including the Muuchstac brand, from Trilogy Solutions Private Limited for INR 4.5 billion. The deal includes a cash consideration of INR 2.89 billion and an earnout of INR 1.6 billion, approved by the board of directors.",
+      "cluster_id": 0,
+      "is_primary": true,
+      "corroboration_count": 2,
+      "deal_type": "M&A",
+      "acquirer": "Godrej Consumer Products",
+      "target": "FMCG",
+      "deal_value": null,
+      "relevance_score": 77,
+      "relevance_reasons": [
+        "Deal-type language found ('M&A') (+35)",
+        "FMCG category terms: fmcg (+12)",
+        "Named acquirer/target extracted (Godrej Consumer Products -> FMCG) (+15)",
+        "Boosted to match a duplicate source ('Business Standard') that scored higher on the same deal"
+      ],
+      "credibility_tier": "Tier 2",
+      "credibility_score": 65,
+      "credibility_reasons": [
+        "Publisher tier: Tier 2 (trade press / industry publication) (base 50)",
+        "Corroborated by 2 independent source(s) (+15)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "Godrej Consumer buys Muuchstac maker Trilogy Solutions for Rs 450 crore",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/companies/news/godrej-consumer-trilogy-solutions-muuchstac-deal",
+      "published": "2025-11-11",
+      "snippet": "Godrej Consumer Products Ltd has completed its acquisition of the FMCG business of Trilogy Solutions Pvt Ltd, owner of the men's grooming brand Muuchstac, in a deal valued at about Rs 450 crore including an earnout component.",
+      "cluster_id": 0,
+      "is_primary": false,
+      "corroboration_count": 2,
+      "deal_type": "M&A",
+      "acquirer": "Godrej Consumer",
+      "target": "Muuchstac",
+      "deal_value": "Rs 450 crore",
+      "relevance_score": 77,
+      "relevance_reasons": [
+        "Deal-type language found ('M&A') (+35)",
+        "FMCG category terms: fmcg (+12)",
+        "Deal value stated ('Rs 450 crore') (+15)",
+        "Named acquirer/target extracted (Godrej Consumer -> Muuchstac) (+15)"
+      ],
+      "credibility_tier": "Tier 1",
+      "credibility_score": 85,
+      "credibility_reasons": [
+        "Publisher tier: Tier 1 (wire service / major business press) (base 70)",
+        "Corroborated by 2 independent source(s) (+15)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "Mars completes $36 billion acquisition of Kellanova",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/mars-kellanova-acquisition-close",
+      "published": "2025-08-15",
+      "snippet": "Candy and pet food giant Mars Inc has closed its roughly $36 billion acquisition of Kellanova, the maker of Pringles and Pop-Tarts, expanding its snacking portfolio after clearing antitrust review in key markets.",
+      "cluster_id": 1,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "M&A",
+      "acquirer": null,
+      "target": null,
+      "deal_value": "$36 billion",
+      "relevance_score": 74,
+      "relevance_reasons": [
+        "Deal-type language found ('M&A') (+35)",
+        "FMCG category terms: pet food, snack (+24)",
+        "Deal value stated ('$36 billion') (+15)"
+      ],
+      "credibility_tier": "Tier 1",
+      "credibility_score": 70,
+      "credibility_reasons": [
+        "Publisher tier: Tier 1 (wire service / major business press) (base 70)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "Ferrero to acquire WK Kellogg for $3.1 billion",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/ferrero-wk-kellogg-acquisition",
+      "published": "2025-07-10",
+      "snippet": "Italian confectioner Ferrero has agreed to buy WK Kellogg Co, the cereal maker behind Frosted Flakes and Special K, in an all-cash deal valuing the company at about $3.1 billion, as consolidation in packaged food continues.",
+      "cluster_id": 2,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "M&A",
+      "acquirer": "Ferrero",
+      "target": "WK Kellogg",
+      "deal_value": "$3.1 billion",
+      "relevance_score": 77,
+      "relevance_reasons": [
+        "Deal-type language found ('M&A') (+35)",
+        "FMCG category terms: cereal (+12)",
+        "Deal value stated ('$3.1 billion') (+15)",
+        "Named acquirer/target extracted (Ferrero -> WK Kellogg) (+15)"
+      ],
+      "credibility_tier": "Tier 1",
+      "credibility_score": 70,
+      "credibility_reasons": [
+        "Publisher tier: Tier 1 (wire service / major business press) (base 70)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "Hershey to acquire premium snack brand LesserEvil",
+      "source": "FoodBev Media",
+      "url": "https://www.foodbev.com/news/hershey-lesserevil-acquisition",
+      "published": "2026-02-18",
+      "snippet": "The Hershey Company has agreed to acquire LesserEvil, a better-for-you snack brand known for organic popcorn and puffs, as part of a strategy to expand into premium, health-focused snacking categories.",
+      "cluster_id": 3,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "M&A",
+      "acquirer": null,
+      "target": null,
+      "deal_value": null,
+      "relevance_score": 47,
+      "relevance_reasons": [
+        "Deal-type language found ('M&A') (+35)",
+        "FMCG category terms: snack (+12)"
+      ],
+      "credibility_tier": "Tier 2",
+      "credibility_score": 50,
+      "credibility_reasons": [
+        "Publisher tier: Tier 2 (trade press / industry publication) (base 50)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "Nestle water business sale process underway, deconsolidation expected from 2027",
+      "source": "FoodBev Media",
+      "url": "https://www.foodbev.com/news/how-fmcg-giants-are-reshaping-their-portfolios",
+      "published": "2026-03-12",
+      "snippet": "Nestle's process to sell its water business is underway, with deconsolidation expected from 2027. The company is also reportedly weighing a reduction of its stake in the Froneri ice cream joint venture.",
+      "cluster_id": 4,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "Divestiture",
+      "acquirer": null,
+      "target": null,
+      "deal_value": null,
+      "relevance_score": 35,
+      "relevance_reasons": [
+        "Deal-type language found ('Divestiture') (+35)",
+        "No FMCG category terms found (+0)"
+      ],
+      "credibility_tier": "Tier 2",
+      "credibility_score": 50,
+      "credibility_reasons": [
+        "Publisher tier: Tier 2 (trade press / industry publication) (base 50)"
+      ],
+      "included_in_newsletter": false,
+      "exclusion_reason": "Relevance score 35 below threshold 45"
+    },
+    {
+      "title": "Unilever to sell unit for $15.7 billion in cash",
+      "source": "Consumer Goods Technology",
+      "url": "https://consumergoods.com/mergers-and-acquisitions",
+      "published": "2026-06-02",
+      "snippet": "Unilever will receive $15.7 billion in cash for the divestiture of one of its units, part of a broader shift to focus its portfolio on beauty and wellness, personal care, home care and nutrition. The transaction is expected to close by mid-2027.",
+      "cluster_id": 5,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "Divestiture",
+      "acquirer": null,
+      "target": null,
+      "deal_value": "$15.7 billion",
+      "relevance_score": 85,
+      "relevance_reasons": [
+        "Deal-type language found ('Divestiture') (+35)",
+        "FMCG category terms: beauty, home care, nutrition, personal care (+35)",
+        "Deal value stated ('$15.7 billion') (+15)"
+      ],
+      "credibility_tier": "Tier 2",
+      "credibility_score": 50,
+      "credibility_reasons": [
+        "Publisher tier: Tier 2 (trade press / industry publication) (base 50)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "TSG Consumer to acquire majority stake in body care brand Saltair",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20260729449825/en/TSG-Consumer-to-Acquire-Majority-Stake-in-Saltair",
+      "published": "2026-07-29",
+      "snippet": "TSG Consumer, a private equity firm specializing in consumer brands, has signed a definitive agreement to acquire a majority stake in Saltair, the body care brand founded by Iskra Lawrence, to accelerate growth through e-commerce and retail.",
+      "cluster_id": 6,
+      "is_primary": true,
+      "corroboration_count": 2,
+      "deal_type": "Investment",
+      "acquirer": null,
+      "target": null,
+      "deal_value": null,
+      "relevance_score": 70,
+      "relevance_reasons": [
+        "Deal-type language found ('Investment') (+35)",
+        "FMCG category terms: body care (+12)",
+        "Boosted to match a duplicate source ('RetailDailyWire (aggregator)') that scored higher on the same deal"
+      ],
+      "credibility_tier": "Tier 1",
+      "credibility_score": 85,
+      "credibility_reasons": [
+        "Publisher tier: Tier 1 (wire service / major business press) (base 70)",
+        "Corroborated by 2 independent source(s) (+15)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "Private equity firm TSG Consumer takes majority position in Saltair body care",
+      "source": "RetailDailyWire (aggregator)",
+      "url": "https://retaildailywire.example.com/tsg-saltair-stake",
+      "published": "2026-07-30",
+      "snippet": "TSG Consumer Partners has agreed to acquire a majority stake in personal care brand Saltair, according to a company announcement, as the PE firm continues to build out its beauty and wellness portfolio.",
+      "cluster_id": 6,
+      "is_primary": false,
+      "corroboration_count": 2,
+      "deal_type": "Investment",
+      "acquirer": null,
+      "target": null,
+      "deal_value": null,
+      "relevance_score": 70,
+      "relevance_reasons": [
+        "Deal-type language found ('Investment') (+35)",
+        "FMCG category terms: beauty, body care, personal care, wellness (+35)"
+      ],
+      "credibility_tier": "Tier 3",
+      "credibility_score": 40,
+      "credibility_reasons": [
+        "Publisher tier: Tier 3 (aggregator / blog / unverified) (base 25)",
+        "Corroborated by 2 independent source(s) (+15)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "BHJ acquires majority stake in Australia's Staughton Group for about $100 million",
+      "source": "Clarkston Consulting",
+      "url": "https://clarkstonconsulting.com/insights/2025-ma-deal-trends-in-consumer-products/",
+      "published": "2025-04-28",
+      "snippet": "Danish ingredients group BHJ acquired a majority stake in Australia's Staughton Group, including its pet food division Cool Off, for approximately $100 million, expanding BHJ's footprint in the Asia-Pacific pet food market.",
+      "cluster_id": 7,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "Investment",
+      "acquirer": "BHJ",
+      "target": "Australia",
+      "deal_value": "$100 million",
+      "relevance_score": 89,
+      "relevance_reasons": [
+        "Deal-type language found ('Investment') (+35)",
+        "FMCG category terms: ingredients group, pet food (+24)",
+        "Deal value stated ('$100 million') (+15)",
+        "Named acquirer/target extracted (BHJ -> Australia) (+15)"
+      ],
+      "credibility_tier": "Tier 2",
+      "credibility_score": 50,
+      "credibility_reasons": [
+        "Publisher tier: Tier 2 (trade press / industry publication) (base 50)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "TechNova raises $2 billion to expand cloud data centers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.example.com/technova-cloud-funding",
+      "published": "2026-08-05",
+      "snippet": "Cloud infrastructure startup TechNova has raised $2 billion in a funding round led by a consortium of sovereign wealth funds to build new AI data centers across three continents.",
+      "cluster_id": 8,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "Investment",
+      "acquirer": null,
+      "target": null,
+      "deal_value": "$2 billion",
+      "relevance_score": 10,
+      "relevance_reasons": [
+        "Deal-type language found ('Investment') (+35)",
+        "No FMCG category terms found (+0)",
+        "Deal value stated ('$2 billion') (+15)",
+        "Off-topic terms with no FMCG context: cloud, data center (-40)"
+      ],
+      "credibility_tier": "Tier 3",
+      "credibility_score": 10,
+      "credibility_reasons": [
+        "Publisher tier: Tier 3 (aggregator / blog / unverified) (base 25)",
+        "Single unverified source, no independent corroboration (-15)"
+      ],
+      "included_in_newsletter": false,
+      "exclusion_reason": "Relevance score 10 below threshold 45; Single-source, low-credibility, uncorroborated report"
+    },
+    {
+      "title": "Rumor: energy drink startup in early buyout talks, sources say",
+      "source": "SipTeaBlog",
+      "url": "https://siptea.example.blog/energy-drink-rumor",
+      "published": "2026-08-10",
+      "snippet": "An anonymous industry blog claims an unnamed beverage giant is in early, unconfirmed talks to acquire a fast-growing energy drink startup, though no company has commented and no other outlet has corroborated the report.",
+      "cluster_id": 9,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "M&A",
+      "acquirer": null,
+      "target": null,
+      "deal_value": null,
+      "relevance_score": 47,
+      "relevance_reasons": [
+        "Deal-type language found ('M&A') (+35)",
+        "FMCG category terms: beverage (+12)"
+      ],
+      "credibility_tier": "Tier 3",
+      "credibility_score": 10,
+      "credibility_reasons": [
+        "Publisher tier: Tier 3 (aggregator / blog / unverified) (base 25)",
+        "Single unverified source, no independent corroboration (-15)"
+      ],
+      "included_in_newsletter": false,
+      "exclusion_reason": "Single-source, low-credibility, uncorroborated report"
+    },
+    {
+      "title": "Cizzle Brands in talks to acquire beverage manufacturing facility",
+      "source": "Stockhouse",
+      "url": "https://stockhouse.com/news/newswire/2026/01/20/consumer-packaged-goods-company-acquires-beverage-manufacturing-facility",
+      "published": "2026-01-20",
+      "snippet": "Consumer packaged goods company Cizzle Brands is in discussions to acquire a beverage manufacturing facility, a move it says would add vertical integration, guaranteed customers, and a clearer path to profitability.",
+      "cluster_id": 10,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": "M&A",
+      "acquirer": null,
+      "target": null,
+      "deal_value": null,
+      "relevance_score": 59,
+      "relevance_reasons": [
+        "Deal-type language found ('M&A') (+35)",
+        "FMCG category terms: beverage, packaged goods (+24)"
+      ],
+      "credibility_tier": "Tier 2",
+      "credibility_score": 50,
+      "credibility_reasons": [
+        "Publisher tier: Tier 2 (trade press / industry publication) (base 50)"
+      ],
+      "included_in_newsletter": true,
+      "exclusion_reason": null
+    },
+    {
+      "title": "Local sports team announces new stadium naming rights deal",
+      "source": "CityNews",
+      "url": "https://citynews.example.com/stadium-naming-rights",
+      "published": "2026-08-12",
+      "snippet": "A local sports franchise announced a ten-year stadium naming rights agreement with a regional bank, part of a broader sponsorship push ahead of the new season.",
+      "cluster_id": 11,
+      "is_primary": true,
+      "corroboration_count": 1,
+      "deal_type": null,
+      "acquirer": null,
+      "target": null,
+      "deal_value": null,
+      "relevance_score": 12,
+      "relevance_reasons": [
+        "No M&A/investment/divestiture verb pattern found (+0)",
+        "FMCG category terms: tea (+12)"
+      ],
+      "credibility_tier": "Tier 3",
+      "credibility_score": 10,
+      "credibility_reasons": [
+        "Publisher tier: Tier 3 (aggregator / blog / unverified) (base 25)",
+        "Single unverified source, no independent corroboration (-15)"
+      ],
+      "included_in_newsletter": false,
+      "exclusion_reason": "Relevance score 12 below threshold 45; Single-source, low-credibility, uncorroborated report"
+    }
+  ]
+}
