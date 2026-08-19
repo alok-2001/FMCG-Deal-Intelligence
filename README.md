@@ -8,7 +8,7 @@ call.
 ![architecture](assets/architecture.png)
 
 
-** Try the application here:** [Open FMCG Deal Intelligence App](https://fmcg-deal-intelligence-g8tfrgl4vxnzgsvstpmu5g.streamlit.app/)
+ Try the application here: [Open FMCG Deal Intelligence App](https://fmcg-deal-intelligence-g8tfrgl4vxnzgsvstpmu5g.streamlit.app/)
 
 ## What it does
 
