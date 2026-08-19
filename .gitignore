@@ -1,9 +1,0 @@
-.venv/
-__pycache__/
-*.pyc
-.env
-output/*.xlsx
-output/*.md
-output/*.json
-output/*.csv
-.DS_Store
