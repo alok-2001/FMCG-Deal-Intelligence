@@ -5,7 +5,7 @@ newsletter of recent M&A, investment, divestiture, and partnership activity —
 with every de-duplication and scoring decision left visible and explainable,
 rather than hidden inside a model call.
 
-![architecture](assets/architecture.png)
+![architecture](assets/architecture.png) 
 
 Try the application here: [Open FMCG Deal Intelligence App](https://fmcg-deal-intelligence-g8tfrgl4vxnzgsvstpmu5g.streamlit.app/)
 
